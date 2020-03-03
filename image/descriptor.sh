@@ -1,3 +1,5 @@
+#!/bin/bash
+
 wget http://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-amd64-disk1.img
 
 virt-customize -a xenial-server-cloudimg-amd64-disk1.img \
